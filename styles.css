@@ -1,0 +1,339 @@
+body {
+  background-color: hsla(0, 0%, 10%, 1);
+  font-family: 'Ubuntu', sans-serif;
+  margin: 10px;
+}
+
+main {
+  background-color: hsla(0, 0%, 15%, 1);
+  color: hsla(0, 0%, 90%, 1);
+}
+
+section {
+  background-color: hsla(0, 0%, 15%, 1);
+  color: hsla(0, 0%, 90%, 1);
+}
+
+article {
+  background-color: hsla(0, 0%, 20%, 1);
+  color: hsla(0, 0%, 90%, 1);
+}
+
+footer {
+  background-color: hsla(0, 0%, 0%, 1);
+  color: hsla(0, 0%, 90%, 1);
+}
+
+h1, .bottom h2, nav, footer, article {
+  padding: 1vh 1vw;
+  background-color: hsla(0, 0%, 20%, 1);
+  color: hsla(0, 0%, 90%, 1);
+}
+
+h1, nav, footer {
+  text-align: center;
+  background-color: hsla(0, 0%, 20%, 1);
+  color: hsla(0, 0%, 90%, 1);
+}
+
+article.bgarticle {
+  width: 94vw;
+  background-color: hsla(0, 0%, 10%, 1)
+}
+
+article {
+  text-align: justify;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+section.bottom img {
+  display: inline-block;
+  background-color: hsla(0, 0%, 50%, 1);
+}
+
+img.contact2 {
+  margin-left: 25vw;
+  margin-top: 10px;
+  width: 40vw;
+}
+
+img.scplogo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+img.norilsk {
+  margin-right: auto;
+}
+
+img.contact4 {
+  margin-left: 10px;
+  width: 50vw;
+  height: 400px;
+  object-fit: cover;
+}
+
+img.contact7 {
+  margin-left: 10px;
+  width: 50vw;
+  height: 400px;
+  object-fit: cover;
+}
+
+header {
+  border: 1px solid black;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  background-color: hsla(0, 0%, 20%, 1);
+  color: hsla(0, 0%, 90%, 1);
+}
+
+aside {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+h2.aincradtitle {
+  font-size: 30px;
+  margin-left: 15px;
+  margin-top: -30px;
+}
+
+a:link {
+  color: skyblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(150, 150, 255);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(0, 255, 0);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+nav a {
+  font-size: 2rem;
+  margin-left: 3vw;
+}
+
+footer a {
+  font-size: 1.5rem;
+}
+
+section.top {
+  display: flex;
+}
+
+form.contactform {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-right: 1px;
+}
+
+form.bookform {
+  border: 1px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  width: 50%;
+  margin-right: 1px;
+  ;
+}
+
+p.senttext {
+  text-align: center;
+  margin-top: -5px;
+  font-size: 20px;
+}
+
+flex input, select, textarea {
+  margin: 0 1vw 0 1vw;
+  width: ;
+}
+
+@media (min-width: 600px) {
+  form {
+    grid-template-columns: 1fr 3fr;
+  }
+}
+
+iframe.gmaps {
+  margin-left: 1vw;
+}
+
+p.findtext {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+legend {
+  grid-column: 1;
+  text-align: right;
+}
+
+label {
+  grid-column: 1;
+  text-align: right;
+  margin: ;
+}
+
+textarea {
+  width: 550px;
+}
+
+textarea.booksubject {
+  height: 100px;
+}
+
+textarea.contactsubject {
+  height: 100px;
+}
+
+fieldset.contactfieldset {
+  width: 250px;
+}
+
+fieldset.bookfieldset {
+  width: 500px;
+}
+
+input, select, button {
+  grid-column: 2/-1;
+  margin: 1vh 1vw
+}
+
+.flex-fieldset {
+  grid-column-start: 2;
+  display: flex;
+  margin-left: 10vw;
+}
+
+section.gmaps-flex-fieldset {
+  grid-column-start: 2;
+  display: flex;
+}
+
+div.image-labels {
+  display: flex;
+  font-weight: bold;
+}
+
+p.outside-yard-label {
+  margin-left: 10vw;
+}
+
+p.lobby-label {
+  margin-left: 28vw;
+}
+
+p.room-label {
+  margin-left: 28vw;
+}
+
+article.grid-article {
+  grid-template-columns: 3fr;
+  display: grid;
+}
+
+input[type="checkbox"i] {
+  margin: 0px 0px 0px 0px;
+}
+
+article.article-banner img {
+  max-width: 100%;
+  height: 30%;
+  object-fit: cover;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  width: 80vw;
+  background-color: black;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 15%;
+  margin-top: 1px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 85%;
+  margin-top: 1px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  section.top {
+    display: grid;
+    /*grid-template-columns: 1fr 1fr;*/
+  }
+}
